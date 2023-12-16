@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cab fare</title>
+</head>
+<body>
+<form  id="form" action="">
+<label for="productType">Select riding Type:</label>
+<select id="productType" name="productType">
+  <option value="mini">Mini Rs.15/km</option>
+  <option value="macro">Macro Rs.10/km</option>
+  <option value="prime">Prime Rs.20/km</option>
+</select>
+<br>
+<br>
+<input id="kilo" type="text" placeholder="enter the total km" name="input">
+<h4>if first ride 20% discount</h4>
+
+<input type="radio" id="agree"  value="yes" name="yes">Yes
+
+<input type="radio" id="agree1" value="no" name="no">No
+
+<br>
+<br>
+<button type='button'id="btn" onclick="console2()">enter</button>
+
+
+</form>
+<div class="amount">
+    <p>total amount : </p><span id="final"></span>
+</div>
+
+
+<script src='../dist/cab.js'>
+     
+</script>
+</body>
+</html>
